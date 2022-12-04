@@ -11,10 +11,10 @@ export const createPDF = (name: string, namePDF: string, firstName: string, last
     doc
         .fontSize(27)
         .text(`${lastName}`, 100, 150);
-    doc
-        .image(`${CloudPath.helpFolder}/${name}.png`, {
-            fit: [300, 300],
-        });
+    // doc
+    //     .image(`${CloudPath.helpFolder}/${name}.png`, {
+    //         fit: [300, 300],
+    //     });
     doc.end()
 
 }

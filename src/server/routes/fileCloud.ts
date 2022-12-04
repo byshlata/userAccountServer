@@ -32,7 +32,6 @@ router.post<Empty, UserResponseType | ErrorResponseType, UserEmailType, Empty>(`
             await bucket.upload(`${CloudPath.helpFolder}/${namePDF}.pdf`);
             const publicUrl = format(`${CloudPath.Cloud}/${bucket.name}/${namePDF}.pdf`);
             const user = await updateUser({ email, pdf: publicUrl });
-            console.log(user.pdf)
             deleteFolder()
 
            return  res.status(200).send({ user });
