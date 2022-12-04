@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "absolute-cipher-370523",
+  "private_key_id": "ffad5c7bf03909e44811e0c47c7f0046b6ab5f6f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCiQerlkOlaht5m\nXU94+DtW4a/GmMPjD9uZxFMvqXz+TBvyv9WmpVHUAh9ar7mjIBt8g2pDChcFWIF7\nXpQIBizbjpw4Eg8bttHtbgSGpirWKrtx0UiogjVFp7A79zJ3mJ9CUUR4AQaqnnvx\newsUVqNqkWEDknVvpkwPhBQNn4qUx5lvcK/ItMVCifzhlZ7Qg+NIP0oUwCyjlMWy\neWRGnb2KLW2aZGq0KAwdkGmTGx4m/OfOpwCqQSGg5sgCUVV6UsIBc9Gu5WojohmN\n581kBT0SoL/G6wn+M48LLxIqssUrJwVU9ji1EjA7l1WTHGgtn5+o7xGDsuJakFSK\nuLBE1J8xAgMBAAECggEAAruvZS/tZVpqnEDvv/T2+2v8a/EKciyEBYVfhRjS154A\ntcRmWPr1i5egT3TQsMMvgVe9mkzdBciXkERf5Bl2B5oBrsZbmar5AunIstuxUqeY\nPhbhVWDRnMdyBhWQNKBmFN31dDvIsOav5em9nllmAetaXe75clCz3OpLs+3LPd2u\nuSh2/eAUl54/r+gVLSe34XxselC/B/kvQau4ai7moBsF4z3H1FzRYujRmS4cB9ne\n0PTo92kI+sr6FsRsSjM4tTfuWsAyKaNXyXobiiMV4RshALYNGQt09FJrzaDnykB7\nwhV0VYbieqGK5URSEKxA/F0O99e7zAIeMuvNKEopgQKBgQDbI70OpLFRWce+SBlZ\n1KJjK2TZAvjSofkw3N3pzz2o+LcBPmkp8U9P9ek3VTbYfem+xzVE0fM37eRC5JVB\nI+4Urp24TGtoGsqH0q1aMp/JVSjKaU4rahRBdcBE/KzLTbBCM0Ed8++WIQKxCjgw\ntqWqlZCSGGR7Y7RB/3bOta9bgQKBgQC9jM6CYQAN5p8g1lMpM9m5Ol0yVEu2qAB9\nhM+e9FpIqBibok8J04YFOOV5LG/L3Zfwymcgt+kt2C5yzDDp1AkR7EMWodhlS8le\nUijsY7QXJ3y3U6hdGYmVqwczjQYYq8KPsWBdeQIE39VK2WWJzeSSTcDj4e7QTjQD\nzze3ps/bsQKBgHFiI27RLeHOlzfP7DX7e+3dxPc3v3CUV++9R6CzFs83qNCe7yDB\nd20C6qEzmQYY1/la7yfljXdxwfoOdV9X7NaMppR2Ddi2i/YMvp79tIkiY9Ge/NAf\nuc1I1KudJPaoArut81JBJcTC3bamd/5UcpE5g6zjrBHfu6OuP1Wi0dGBAoGADDPT\nW4tZEIwHNHr3sZBX9NewBjxs/15DYdE5+HaslT7VDrfdNLm8R/vIsgtNSyeBz4uI\nJhAQ39Wp79P7ViJDTzcRfpR+tM6zMPJDFiy4/ECbg8XL8eph9BOljAkJGm98P/ng\nRUQ0ABJUzdO++KcbjtuYjlMOJ7TRHmmpoZYIjZECgYArFIo9ws6GLgyqRbL9lkuU\n2/VW1WpSO9w/BDuCriFwW6Ed6wfNQ84f80Zww2CU+E6gK6GMHv4J4KTrCgzgaTJt\nlX+cVWJ2Z+dNRll97DRolAg9QdDecqOJ73pDRb+R411/ZFo84LPlbih0Kr+hhyug\nTSbgbvoZIWo1VZY/znnl0Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "diskcloudtest@absolute-cipher-370523.iam.gserviceaccount.com",
+  "client_id": "117778311704685247174",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/diskcloudtest%40absolute-cipher-370523.iam.gserviceaccount.com"
+}

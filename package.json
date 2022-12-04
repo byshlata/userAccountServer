@@ -1,0 +1,56 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "nodemon src/server/index.ts",
+    "build": "rimraf dist && tsc",
+    "ts.check": "tsc --project tsconfig.json",
+    "add-build": "git add dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "pre-commit": [
+    "ts.check",
+    "build",
+    "add-build"
+  ],
+  "author": "Rudnitski",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.4",
+    "pre-commit": "^1.2.2",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^6.7.0",
+    "@prisma/client": "^4.7.0",
+    "@types/bcrypt": "^5.0.0",
+    "@types/pdfkit": "^0.12.8",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "cloudinary": "^1.32.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.5",
+    "enum": "^3.0.4",
+    "enums": "^1.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "file-type": "^18.0.0",
+    "image-to-pdf": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mime": "^3.0.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "pdfkit": "^0.13.0",
+    "pg-promise": "^10.15.4",
+    "prisma": "^4.7.0",
+    "serve-static": "^1.15.0"
+  }
+}
