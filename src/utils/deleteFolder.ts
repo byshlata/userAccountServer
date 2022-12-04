@@ -9,9 +9,6 @@ export const deleteFolder = () => {
             throw err
         };
         files.forEach(file => deleteFile(file))
-        fs.rmdir(CloudPath.helpFolder, (err: Error) => {
-            if(err) throw err;
-        });
     });
 
 

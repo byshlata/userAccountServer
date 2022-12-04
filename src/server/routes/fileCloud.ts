@@ -21,6 +21,7 @@ const bucket = storage.bucket("diskcloudtest");
 router.post<Empty, UserResponseType | ErrorResponseType, UserEmailType, Empty>(`${Path.Root}`, checkAuth, async (req, res) => {
     try {
         const { email } = req.body
+
         const userByBase = await getUserByEmail(email)
         const nameImage = createName(userByBase?.image)
         if (userByBase && nameImage) {
@@ -28,12 +29,11 @@ router.post<Empty, UserResponseType | ErrorResponseType, UserEmailType, Empty>(`
             const prefix = createPrefix()
             const namePDF = email + prefix
             await savePNG(nameImage)
-            createPDF(nameImage, namePDF, userByBase.firstName, userByBase.lastName)
+            createPDF(namePDF, userByBase.firstName, userByBase.lastName)
             await bucket.upload(`${CloudPath.helpFolder}/${namePDF}.pdf`);
             const publicUrl = format(`${CloudPath.Cloud}/${bucket.name}/${namePDF}.pdf`);
             const user = await updateUser({ email, pdf: publicUrl });
             deleteFolder()
-
            return  res.status(200).send({ user });
         }
     } catch (error) {

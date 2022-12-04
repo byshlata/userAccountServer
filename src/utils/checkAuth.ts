@@ -6,6 +6,7 @@ import { Request, Response, NextFunction} from 'express'
 
 export const checkAuth = async (req: Request, res: Response, next: NextFunction) => {
     const token = sliceToken(req.headers.authorization)
+
     if (token) {
         try {
             const decodedEmailByToken = decipherToken(token, Secret.Secret)
